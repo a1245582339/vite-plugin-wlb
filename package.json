@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-wlb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc src/index.ts"
+    "build": "tsc -p ."
   },
   "author": "",
   "license": "ISC",
