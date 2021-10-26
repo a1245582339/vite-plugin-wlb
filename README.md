@@ -39,7 +39,7 @@ module.exports = {
 
 #### `ignoreWeekend`
 
-* **Type:** `number | undefind`
+* **Type:** `boolean | undefind`
 * **Default:** `false`
 
   是否忽略周末。
