@@ -5,7 +5,7 @@ export const getRandomSlogan = () => {
   return WORK_LIFE_BALANCE_SLOGAN_LIST[index]
 }
 
-export const htmlTemplate = slogan => {
+export const htmlTemplate = (slogan: string) => {
   return `<div><h1>${slogan}</h1><a href=\\"https://github.com/a1245582339/vite-plugin-wlb\\">由「vite-plugin-wlb 反内卷 & 代码防沉迷 vite 插件」支持</a></div>`
 }
 
