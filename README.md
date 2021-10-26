@@ -1,6 +1,6 @@
 # Vite Plugin Work Life Balance
 
-> A vite plugin help you automatically open debugging tools in the development environment
+> 一个反内卷vite插件，是 https://github.com/shadowings-zy/wlb-webpack-plugin 的复刻版，代码逻辑基本一致，欢迎试用～
 
 ### Install
 
