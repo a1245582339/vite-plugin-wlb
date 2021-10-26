@@ -28,7 +28,7 @@ export default (options: WlbOptions = DEFAULT_OPTIONS) => {
         !isWorkdays || hour < startWorkingTime || hour >= endWorkingTime
       if (isWorkOvertime) {
         console.log(chalk.red(warningMessage))
-        content = generateCode()
+        content += generateCode()
       }
       return content
     }
