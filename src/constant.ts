@@ -1,17 +1,14 @@
 const WORK_LIFE_BALANCE_SLOGAN_LIST = [
   {
-    introduction:
-      '[work-life-balance-webpack-plugin] 反内卷 & 防沉迷插件提醒您: ',
+    introduction: '[vite-plugin-work-life-balance] 反内卷 & 防沉迷插件提醒您: ',
     content: '需求千万条，反卷第一条，非要搞内卷，加班两行泪'
   },
   {
-    introduction:
-      '[work-life-balance-webpack-plugin] 反内卷 & 防沉迷插件提醒您: ',
+    introduction: '[vite-plugin-work-life-balance] 反内卷 & 防沉迷插件提醒您: ',
     content: '今天你卷我，明天我卷你，争相当卷王，迟早要遭殃'
   },
   {
-    introduction:
-      '[work-life-balance-webpack-plugin] 反内卷 & 防沉迷插件提醒您: ',
+    introduction: '[vite-plugin-work-life-balance] 反内卷 & 防沉迷插件提醒您: ',
     content: '适度代码益脑，过度代码伤身，合理安排时间，享受健康生活'
   }
 ]
@@ -21,10 +18,9 @@ const DEFAULT_WARNING_MESSAGE =
 
 const DEFAULT_OPTIONS = {
   startWorkingTime: 10,
-  endWorkingTime: 20,
+  endWorkingTime: 19,
   ignoreWeekend: false,
-  warningMessage: DEFAULT_WARNING_MESSAGE,
-  replaceOriginBundle: true
+  warningMessage: DEFAULT_WARNING_MESSAGE
 }
 
 export { WORK_LIFE_BALANCE_SLOGAN_LIST, DEFAULT_OPTIONS }
